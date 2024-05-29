@@ -1,0 +1,16 @@
+  
+  .ingredients-container{
+    background-color: #4CAF50;
+    width: 30%;
+    height: 100%;
+    margin-left: 1rem;
+  }
+  .ingredient-label{
+    text-align: center;
+  }
+  .ingredient-list {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  

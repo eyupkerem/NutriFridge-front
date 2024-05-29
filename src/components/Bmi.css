@@ -1,0 +1,64 @@
+
+.bmi-çerceve {
+    position: relative; 
+    width: 500px; 
+    height: 55vh; 
+
+    background-color: #f2f2f2; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .bmi-kutusu {
+    background-color: white; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    margin-top: 25px;
+    transform: translate(-50%, -50%); 
+    width: 270px; 
+    height: 300px; 
+  }
+  .bmi-label{
+    text-align: center;
+  }
+  
+
+  .giris-alanlari {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 20px 0;
+  }
+  
+  .giris-alanlari label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .giris-alanlari input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    width: 180px;
+    border-radius: 5px;
+  }
+  
+  .sonuc {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .hesapla-buton{
+    background-color: green;
+    font-size: 20px;
+    margin-left: 5rem;
+    margin-top: 1.5rem;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }

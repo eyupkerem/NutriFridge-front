@@ -1,0 +1,17 @@
+.itemcard {
+    display: inline-block;  
+    width: 80px; 
+    height: 40px;     
+    background-color: #4e9a61;  
+    color: white;  
+    font-weight: bold;  
+    text-align: center;  
+     border: 1px solid #4e9a61;   
+    margin: 10px;  
+    cursor: pointer;  
+    transition: transform 0.2s ease-in-out; 
+  }
+  
+  .itemcard:hover {
+    transform: scale(1.3);
+  }

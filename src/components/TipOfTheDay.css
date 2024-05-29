@@ -1,0 +1,38 @@
+.tip-box {
+    position: relative;
+    width: 500px;
+    height: 50vh;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  .tip-container{
+      justify-content: center;
+      align-items: center;
+      margin-top: 5rem;
+  }
+  .tip-text {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .new-tip-button {
+    margin-top: 5rem;
+    background-color: green;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }

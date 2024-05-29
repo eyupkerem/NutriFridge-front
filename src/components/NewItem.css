@@ -1,0 +1,22 @@
+.add-to-fridge-container{
+  background-color: #4CAF50;
+  width: 30%;
+  height: 100%;
+  margin-left: 1rem;
+
+}
+.add-form-container{
+  display: flex;
+   
+
+}
+.add-button{
+  margin: 2px;
+  margin-top: 1px;
+  margin-right: 10px;
+}
+.input-field {
+  width: 100%; 
+  padding: 10px; 
+  margin-bottom: 10px; 
+}

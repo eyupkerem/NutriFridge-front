@@ -1,0 +1,80 @@
+ 
+.footer {
+  margin-top: auto;
+  bottom: 0;
+  left: 0;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #004d00;
+  color: #fff;
+  padding: 20px 50px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.kolon1, .kolon2, .kolon3, .kolon4 {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
+}
+
+.logo {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  margin-left: 10px;
+  height: 40px;
+}
+
+.brand-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.kolon2 ul, .kolon3 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.kolon2 ul li, .kolon3 ul li {
+  margin: 5px 0;
+}
+
+.kolon2 ul li button, .kolon3 ul li button {
+  font-size: 14px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 0;
+}
+
+.kolon2 ul li button:hover, .kolon3 ul li button:hover {
+  text-decoration: underline;
+}
+
+.kolon4 p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.kolon4 button {
+  font-size: 14px;
+  background-color: #007b00;
+  border: none;
+  padding: 10px 15px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.kolon4 button:hover {
+  background-color: #005a00;
+}
